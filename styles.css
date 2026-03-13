@@ -124,7 +124,7 @@ justify-content:center;
 align-items:center;
 gap:8px;
 margin-top:-8px;
-margin-bottom:5px;
+margin-bottom:0px;
 }
 
 .education-header i{
@@ -137,7 +137,7 @@ font-weight:520;
 }
 
 .education p{
-margin:5px 0;
+margin:3px 0;
 color:#555;
 }
 
