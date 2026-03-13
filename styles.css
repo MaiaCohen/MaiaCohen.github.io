@@ -48,92 +48,70 @@ color:#555;
 }
 
 /* botones */
-.link-section {
-    padding: 80px 20px;
-    background-color: #fbfbfb; /* Un tono muy claro de fondo */
+/* contenedor botones */
+
+.buttons{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:25px;
 }
 
-/* Contenedor de los iconos, con más espacio */
-.link-circles {
-    display: flex;
-    justify-content: center;
-    gap: 40px; /* Mayor espacio entre los elementos */
-    flex-wrap: wrap;
+
+/* contenedor de cada botón */
+
+.circle-container{
+display:flex;
+flex-direction:column;
+align-items:center;
 }
 
-.circle-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+/* círculo */
+
+.circle{
+width:55px;
+height:55px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+font-size:22px;
+color:white;
+transition:0.3s;
 }
 
-/* La forma "squircle" (cuadrado redondeado) */
-.circle {
-    /* 1. Reducir el tamaño del contenedor */
-    width: 100px;
-    height: 100px;
-    
-    /* 2. Cambiar border-radius para el efecto squircle */
-    border-radius: 30px; /* Valor más bajo para esquinas menos redondas */
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    
-    /* Sombra suave */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
-    
-    /* Transición suave para el hover */
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    margin-bottom: 12px;
+
+/* colores */
+.github-link{
+background:#333;
 }
 
-/* Efecto hover general */
-.circle:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+.linkedin-link{
+background:#0a66c2;
 }
 
-/* --- ESTILOS ESPECÍFICOS DE COLOR Y LOGO --- */
-
-/* GitHub: Negro carbón, icono grande */
-.github-link {
-    background-color: #fcfcfc; /* Un blanco casi puro */
-    color: #1a1a1a;
-}
-.github-link i {
-    /* 3. Aumentar el tamaño del icono */
-    font-size: 3.5rem; /* Ocupa más espacio */
+.download-link{
+background:#444;
 }
 
-/* LinkedIn: Azul corporativo en el fondo con icono blanco, como tu ejemplo */
-.linkedin-link.linkedin-full-bg {
-    background-color: #0077b5; /* Fondo azul */
-    color: #ffffff; /* Icono blanco */
-}
-.linkedin-link i {
-    /* 3. Aumentar el tamaño del icono */
-    font-size: 3.5rem; /* Ocupa más espacio */
+
+/* hover */
+
+.circle:hover{
+transform:translateY(-4px);
 }
 
-/* Download: Rojo vibrante, icono grande */
-.download-link {
-    background-color: #fcfcfc; /* Un blanco casi puro */
-    color: #ff4d4d; /* Rojo */
-}
-.download-link i {
-    /* 3. Aumentar el tamaño del icono */
-    font-size: 3.5rem; /* Ocupa más espacio */
+
+/* texto debajo */
+
+.label{
+margin-top:8px;
+font-size:14px;
+color:#444;
 }
 
-/* Texto de etiqueta debajo */
-.label {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: #555;
-    font-family: sans-serif;
-}
 
 
 
