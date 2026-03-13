@@ -48,11 +48,16 @@ color:#555;
 }
 
 /* botones */
-/* Contenedor de los iconos */
-.social-circles {
+.link-section {
+    padding: 80px 20px;
+    background-color: #fbfbfb; /* Un tono muy claro de fondo */
+}
+
+/* Contenedor de los iconos, con más espacio */
+.link-circles {
     display: flex;
     justify-content: center;
-    gap: 40px; /* Espacio entre círculos */
+    gap: 40px; /* Mayor espacio entre los elementos */
     flex-wrap: wrap;
 }
 
@@ -62,41 +67,71 @@ color:#555;
     align-items: center;
 }
 
-/* El círculo blanco con sombra */
+/* La forma "squircle" (cuadrado redondeado) */
 .circle {
-    width: 130px;
-    height: 130px;
-    background-color: #fff;
-    border-radius: 50%;
+    /* 1. Reducir el tamaño del contenedor */
+    width: 100px;
+    height: 100px;
+    
+    /* 2. Cambiar border-radius para el efecto squircle */
+    border-radius: 30px; /* Valor más bajo para esquinas menos redondas */
+    
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    /* Esta sombra es la que da el efecto de la imagen */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin-bottom: 15px;
+    
+    /* Sombra suave */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    
+    /* Transición suave para el hover */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-bottom: 12px;
 }
 
+/* Efecto hover general */
 .circle:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
 }
 
-/* Tamaño y colores de los iconos */
-.circle i {
-    font-size: 3.5rem;
+/* --- ESTILOS ESPECÍFICOS DE COLOR Y LOGO --- */
+
+/* GitHub: Negro carbón, icono grande */
+.github-link {
+    background-color: #fcfcfc; /* Un blanco casi puro */
+    color: #1a1a1a;
+}
+.github-link i {
+    /* 3. Aumentar el tamaño del icono */
+    font-size: 3.5rem; /* Ocupa más espacio */
 }
 
-.fa-github { color: #333; }
-.fa-linkedin-in { color: #0077b5; }
-.fa-download { color: #e74c3c; } /* Rojo similar al de Oracle */
+/* LinkedIn: Azul corporativo en el fondo con icono blanco, como tu ejemplo */
+.linkedin-link.linkedin-full-bg {
+    background-color: #0077b5; /* Fondo azul */
+    color: #ffffff; /* Icono blanco */
+}
+.linkedin-link i {
+    /* 3. Aumentar el tamaño del icono */
+    font-size: 3.5rem; /* Ocupa más espacio */
+}
 
-/* Texto debajo del círculo */
+/* Download: Rojo vibrante, icono grande */
+.download-link {
+    background-color: #fcfcfc; /* Un blanco casi puro */
+    color: #ff4d4d; /* Rojo */
+}
+.download-link i {
+    /* 3. Aumentar el tamaño del icono */
+    font-size: 3.5rem; /* Ocupa más espacio */
+}
+
+/* Texto de etiqueta debajo */
 .label {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
-    color: #666;
+    color: #555;
     font-family: sans-serif;
 }
 
