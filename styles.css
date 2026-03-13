@@ -48,43 +48,61 @@ color:#555;
 }
 
 /* botones */
-
-.social-circles{
-display:flex;
-justify-content:center;
-gap:80px;
-margin-top:40px;
+/* Contenedor de los iconos */
+.social-circles {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Espacio entre círculos */
+    flex-wrap: wrap;
 }
 
-.circle{
-text-decoration:none;
-text-align:center;
-color:#555;
-font-weight:500;
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.circle i{
-width:110px;
-height:110px;
-background:white;
-border-radius:50%;
-display:flex;
-align-items:center;
-justify-content:center;
-font-size:45px;
-margin:auto;
-box-shadow:0 10px 25px rgba(0,0,0,0.1);
-transition:0.2s;
+/* El círculo blanco con sombra */
+.circle {
+    width: 130px;
+    height: 130px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    /* Esta sombra es la que da el efecto de la imagen */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 15px;
 }
 
-.circle span{
-display:block;
-margin-top:15px;
+.circle:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
 }
 
-.circle:hover i{
-transform:translateY(-6px);
+/* Tamaño y colores de los iconos */
+.circle i {
+    font-size: 3.5rem;
 }
+
+.fa-github { color: #333; }
+.fa-linkedin-in { color: #0077b5; }
+.fa-download { color: #e74c3c; } /* Rojo similar al de Oracle */
+
+/* Texto debajo del círculo */
+.label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #666;
+    font-family: sans-serif;
+}
+
+
+
+
 
 
 .education{
