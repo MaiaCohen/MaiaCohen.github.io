@@ -86,7 +86,15 @@ color:#333;
 }
 
 .github-link i{
-font-size:40px;
+font-size:45px;
+}
+
+.linkedin-link i{
+font-size:38px;
+}
+
+.download-link i{
+font-size:33px;
 }
 
 .linkedin-link{
