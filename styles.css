@@ -139,8 +139,9 @@ color:#444;
 
 .skills-grid{
 display:grid;
-grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
-gap:30px;
+grid-template-columns: repeat(auto-fit, minmax(120px,120px));
+justify-content:center;
+gap:25px;
 }
 
 .skill{
