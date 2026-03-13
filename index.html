@@ -5,15 +5,55 @@
 <meta charset="UTF-8">
 <style>
 body{
-font-family: Arial;
-max-width:800px;
-margin:auto;
-padding:40px;
-line-height:1.6;
+  
+.skills-section{
+margin-top:60px;
+}
+
+.skills-title{
+text-align:center;
+margin-bottom:40px;
+}
+
+.skill-category{
+margin-bottom:40px;
+}
+
+.skill-category h3{
+text-align:center;
+margin-bottom:25px;
+color:#444;
+}
+
+.skills-grid{
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
+gap:20px;
+text-align:center;
+}
+
+.skill{
+padding:15px;
+border-radius:12px;
+background:#f5f5f5;
+transition:0.3s;
+}
+
+.skill:hover{
+transform:translateY(-5px);
+box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+.skill i{
+font-size:40px;
+margin-bottom:10px;
+display:block;
 }
 h1{color:#333;}
 </style>
 </head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
 <body>
 
@@ -25,15 +65,50 @@ Final-year Systems Analyst student with experience working in the financial
 sector using Java, Spring Boot and microservices.
 </p>
 
-<h2>Skills</h2>
-<ul>
-<li>Java</li>
-<li>Spring Boot</li>
-<li>Microservices</li>
-<li>Maven</li>
-<li>SQL</li>
-<li>Git</li>
-</ul>
+<section class="skills-section">
+
+<h2 class="skills-title">Technical Skills</h2>
+
+<div class="skill-category">
+<h3>Backend</h3>
+<div class="skills-grid">
+<div class="skill"><i class="bi bi-cup-hot"></i>Spring Boot</div>
+<div class="skill"><i class="bi bi-layers"></i>Hibernate</div>
+<div class="skill"><i class="bi bi-filetype-py"></i>Python</div>
+<div class="skill"><i class="bi bi-file-code"></i>Thymeleaf</div>
+<div class="skill"><i class="bi bi-filetype-php"></i>Laravel</div>
+</div>
+</div>
+
+<div class="skill-category">
+<h3>Frontend</h3>
+<div class="skills-grid">
+<div class="skill"><i class="bi bi-filetype-html"></i>HTML</div>
+<div class="skill"><i class="bi bi-filetype-css"></i>CSS</div>
+<div class="skill"><i class="bi bi-filetype-js"></i>JavaScript</div>
+<div class="skill"><i class="bi bi-box"></i>React</div>
+</div>
+</div>
+
+<div class="skill-category">
+<h3>Data</h3>
+<div class="skills-grid">
+<div class="skill"><i class="bi bi-database"></i>SQL Server</div>
+<div class="skill"><i class="bi bi-database-fill"></i>MySQL</div>
+<div class="skill"><i class="bi bi-database-add"></i>MongoDB</div>
+<div class="skill"><i class="bi bi-terminal"></i>PL/SQL</div>
+<div class="skill"><i class="bi bi-tools"></i>Workbench</div>
+</div>
+</div>
+
+<div class="skill-category">
+<h3>Testing</h3>
+<div class="skills-grid">
+<div class="skill"><i class="bi bi-check2-square"></i>Cucumber</div>
+</div>
+</div>
+
+</section>
 
 <h2>Projects</h2>
 <ul>
