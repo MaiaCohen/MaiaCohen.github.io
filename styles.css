@@ -178,7 +178,7 @@ color:#444;
 display:grid;
 grid-template-columns: repeat(auto-fit, minmax(120px,120px));
 justify-content:center;
-gap:6px;
+gap:3px;
 }
 
 .skill{
