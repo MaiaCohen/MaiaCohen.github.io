@@ -153,7 +153,7 @@ font-size:22px;
 /* SKILLS */
 
 .skills-section{
-margin-top:45px;
+margin-top:30px;
 }
 
 .skills-title{
@@ -276,9 +276,11 @@ font-size:18px;
 }
 
 .exp-role{
-color:#555;
+font-size:18px;
+font-weight:600;
+margin-top:6px;
 margin-bottom:10px;
-font-weight:500;
+color:#222;
 }
 
 .exp-date{
