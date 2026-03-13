@@ -69,30 +69,28 @@ color:#333;
 
 .education{
 text-align:center;
-padding:20px 20px;
+padding:20px;
 }
 
 .education-header{
 display:flex;
 justify-content:center;
 align-items:center;
-gap:10px;
-margin-bottom:10px;
+gap:8px;
 }
 
 .education-header i{
-font-size:28px;
-color:#444;
+font-size:24px;
 }
 
-.education h3{
+.education-header h3{
 margin:0;
 font-weight:600;
 }
 
 .education p{
-color:#555;
 margin:5px 0;
+color:#555;
 }
 
 .education .date{
