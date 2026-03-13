@@ -67,22 +67,26 @@ color:#333;
 }
 
 
-
-
 .education{
 text-align:center;
 padding:20px 20px;
 }
 
-.education i{
-font-size:40px;
-margin:10px 0;
+.education-header{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:10px;
+margin-bottom:10px;
+}
+
+.education-header i{
+font-size:28px;
 color:#444;
-display:block;
 }
 
 .education h3{
-margin-top:10px;
+margin:0;
 font-weight:600;
 }
 
@@ -96,6 +100,10 @@ color:#888;
 font-size:14px;
 }
 
+.education h2{
+font-size:22px;
+}
+
 
 
 /* SKILLS */
@@ -106,7 +114,7 @@ margin-top:60px;
 
 .skills-title{
 text-align:center;
-font-size:28px;
+font-size:22px;
 margin-bottom:40px;
 }
 
@@ -168,7 +176,7 @@ margin:20px auto;
 
 .exp-title{
 text-align:center;
-font-size:28px;
+font-size:22px;
 margin-bottom:40px;
 }
 
