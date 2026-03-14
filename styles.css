@@ -15,8 +15,8 @@ padding:40px 20px;
 /* HERO */
 
 .hero .profile-pic{
-width:140px;
-height:140px;
+width:150px;
+height:150px;
 border-radius:50%;
 object-fit:cover;
 margin-bottom:10px;
@@ -39,12 +39,14 @@ margin-bottom:10px;
 font-weight:450;
 color:#666;
 margin-bottom:20px;
+font-size:25px;
 }
 
 .hero p{
 max-width:600px;
 margin:auto;
 color:#555;
+font-size:18px;
 }
 
 /* botones */
@@ -139,6 +141,7 @@ font-weight:520;
 .education p{
 margin:3px 0;
 color:#555;
+font-size:18px;
 }
 
 .education .date{
