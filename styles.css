@@ -243,11 +243,13 @@ gap:30px;
 .exp-card{
 width:100%;
 max-width:700px;
-ackground: rgba(255, 255, 255, 0.15);
-padding:25px;
-border-radius:13px;
+background: rgba(120, 190, 255, 0.15);
+padding:22px;
+border-radius: 16px;
+border: 1px solid rgba(120, 190, 255, 0.25);
 box-shadow:0 4px 12px rgba(0,0,0,0.08);
 transition:0.2s;
+backdrop-filter: blur(8px);
 }
 
 .exp-card:hover{
