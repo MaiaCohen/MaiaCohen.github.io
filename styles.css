@@ -167,12 +167,12 @@ margin-bottom:40px;
 }
 
 .skill-category{
-margin-bottom:50px;
+margin-bottom:35px;
 }
 
 .skill-category h3{
 text-align:center;
-margin-bottom:30px;
+margin-bottom:20px;
 color:#444;
 }
 
@@ -180,7 +180,7 @@ color:#444;
 display:grid;
 grid-template-columns: repeat(auto-fit, minmax(120px,120px));
 justify-content:center;
-gap:3px;
+gap:0px;
 }
 
 .skill{
