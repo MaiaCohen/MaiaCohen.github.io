@@ -334,6 +334,22 @@ font-size:12px;
 color:#888;
 }
 
+@media (max-width: 768px) {
+
+ .hero h1{
+  font-size:45px;
+  }
+
+  .hero h3{
+font-size:35px;
+}
+
+  .hero p{
+font-size:25px;
+}
+  
+}
+
 
 
 
