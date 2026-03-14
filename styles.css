@@ -363,6 +363,15 @@ font-size:23px;
 font-size:32px;
 }
 
+.cards-container {
+    padding-left: 18px;
+    padding-right: 18px;
+ }
+
+.section {
+  padding: 0 24px;
+}
+
   
 }
 
