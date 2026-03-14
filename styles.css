@@ -152,8 +152,6 @@ font-size:14px;
 font-size:22px;
 }
 
-
-
 /* SKILLS */
 
 .skills-section{
@@ -347,6 +345,24 @@ font-size:35px;
   .hero p{
 font-size:25px;
 }
+
+ .education h2{
+font-size:32px;
+}
+
+
+.education-header {
+ font-size:28px;
+}
+
+.education p{
+font-size:23px;
+}
+
+.skills-title{
+font-size:32px;
+}
+
   
 }
 
